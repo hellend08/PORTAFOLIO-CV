@@ -2265,7 +2265,7 @@ input, select, textarea {
 	}
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/fondito.jpeg");
+		/* background: url("images/overlay.png"), url("../../images/fondito.jpeg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2273,8 +2273,38 @@ input, select, textarea {
 
 /* Two */
 
+.image-skill {
+	width: 180px;
+	position: relative;
+}
+
+#node {
+	left: 20rem;
+	top: 7rem;
+}
+#js {
+	left: 27rem;
+	bottom: 8rem;
+}
+#html {
+	bottom: 8rem;
+}
+
+#css {
+	left: 8rem;
+	bottom: 8rem;
+}
+#github {
+	top: 7rem;
+	right: 34rem;
+}
+#visual {
+	top: 7rem;
+	right: 30rem;
+}
+
 	#two {
-		background: url("images/overlay.png"), url("../../images/EEFFF6.jpg");
+		/* background: url("images/overlay.png"), url("../../images/EEFFF6.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
