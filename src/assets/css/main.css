@@ -920,6 +920,11 @@ input, select, textarea {
 
 /* Icon */
 
+.iconnn {
+    width: 4%;
+	margin: 5px 25px;
+}
+
 	.icon {
 		text-decoration: none;
 		position: relative;
@@ -1451,7 +1456,7 @@ input, select, textarea {
 		}
 
 			.gallery article .image {
-				margin: 0;
+				margin: 5px 0px;
 				display: block;
 			}
 
@@ -1838,14 +1843,16 @@ input, select, textarea {
 		width: 100%;
 		/* background: rgba(132, 22, 165, 0.); */
 		/* background: rgba(138, 172, 200, 0.85); */
-		background: rgba(0, 54, 58, 0.85);
+		/* background: rgb(195, 207, 212); */
+		/* background: #586656; */
+		background: rgb(57, 69, 75, 0.85);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(32, 25, 34, 0.562);
 	}
 
 		#header .menu-a {
-			position: absolute;
+			/* position: static; */
 			left: 1em;
 			top: 0;
 			height: 3em;
