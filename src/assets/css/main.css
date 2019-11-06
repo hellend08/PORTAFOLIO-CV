@@ -561,9 +561,16 @@ input, select, textarea {
 		}
 
 	h2 {
+		/* margin-top: 1em; */
 		font-size: 2.25em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
+	}
+
+	#frontend {
+		font-size: 2.2em;
+		margin: 1.5em 0;
+		margin-top: 1em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1845,8 +1852,8 @@ input, select, textarea {
 		/* background: rgba(138, 172, 200, 0.85); */
 		/* background: rgb(195, 207, 212); */
 		/* background: #586656; */
-		background: rgb(57, 69, 75, 0.85);
-		height: 3em;
+		background: rgba(37, 86, 112, 0.85);
+		height: 3.5em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(32, 25, 34, 0.562);
 	}
@@ -1869,9 +1876,9 @@ input, select, textarea {
 		#header nav {
 			position: absolute;
 			right: 0.5em;
-			top: 0;
+			top: 0.3em;
 			height: 3em;
-			line-height: 3em;
+			/* line-height: 3em; */
 		}
 
 			#header nav ul {
@@ -1921,7 +1928,7 @@ input, select, textarea {
 		}
 
 	body {
-		padding-top: 3em;
+		padding-top: 3.5em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2276,7 +2283,8 @@ input, select, textarea {
 	}
 
 	#one {
-		/* background: url("images/overlay.png"), url("../../images/fondito.jpeg"); */
+		background: #F1F1F1;
+		/* url("images/overlay.png"), url("../../images/fondito.jpeg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
