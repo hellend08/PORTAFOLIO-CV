@@ -13,7 +13,7 @@ const buttonDemoRedSocial = document.getElementById('demo-redsocial');
 const buttonRepoRedSocial = document.getElementById('repo-redsocial');
 
 buttonDemoRedSocial.addEventListener('click', () => {
-  window.open('https://hellend08.github.io/MINI-RS/src/index.html');
+  window.open('https://hellend08.github.io/MINI-RS/src');
 });
 
 buttonRepoRedSocial.addEventListener('click', () => {
