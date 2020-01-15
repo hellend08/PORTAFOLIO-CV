@@ -10,21 +10,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style></style>
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
 	<header id="header">
-		<a class="menu-a" href="./cv/CV-HELENVASQUEZ.pdf" download="CVHelenVasquez"><img class="iconnn" src="./images/cloud.png"></a>
+		<a class="menu-a" href="./cv/CV-HELENVASQUEZ.pdf" download="CVHelenVasquez"><img class="iconnn"
+				src="./images/cloud.png"></a>
 		<nav>
 			<ul>
-				<li><a href="#intro">Home</a></li>
-				<li><a href="#one">Sobre mí</a></li>
-				<li><a href="#two">Habilidades</a></li>
-				<li><a href="#work">Portafolio</a></li>
-				<li><a href="#hackathon">Participaciones</a></li>
-				<li><a href="#contact">Contacto</a></li>
+				<li class="hover-a"><a href="#intro">Home</a></li>
+				<li class="hover-a"><a href="#one">Sobre mí</a></li>
+				<li class="hover-a"><a href="#two">Skill</a></li>
+				<li class="hover-a"><a href="#work">Portafolio</a></li>
+				<li class="hover-a"><a href="#hackathon">Hackathon</a></li>
+				<li class="hover-a"><a href="#contact">Contacto</a></li>
 
 			</ul>
 		</nav>
@@ -52,39 +54,98 @@
 				<h2>¡Hola Mundo!</h2>
 			</header>
 			<p>Soy Front-End Developer y vivo apasionada por la tecnología. <br>
-				Me satisface el obtener nuevos conocimientos y desarrollarme continuamente. 
-				Me considero una persona autodidacta, que se adecua a todo tipo de circunstancias. 
-				En el futuro me gustaría convertirme en una full-stack developer y eventualmente poder 
-				liderar un equipo de trabajo, además de ser freelancer y contribuir en proyectos tecnológicos 
+				Me satisface el obtener nuevos conocimientos y desarrollarme continuamente.
+				Me considero una persona autodidacta, que se adecua a todo tipo de circunstancias.
+				En el futuro me gustaría convertirme en una full-stack developer y eventualmente poder
+				liderar un equipo de trabajo, además de ser freelancer y contribuir en proyectos tecnológicos
 				de mayor alcance así como de impacto social.<br>
-				Por otra parte, disfruto mucho el dibujar y escribir aficionadamente. De alma cinéfila y ciclista espontánea.</p>
+				Por otra parte, disfruto mucho el dibujar y escribir aficionadamente. De alma cinéfila y ciclista
+				espontánea.</p>
 		</div>
-		<a href="#two" class="button style2 down anchored">Next</a>
+		<!-- <a href="#two" class="button style2 down anchored">Next</a> -->
 	</section>
 
 	<!-- Two -->
 	<section id="two" class="main style2 left dark fullscreen">
-		
+
 		<div class="content box style22">
 			<header>
 				<h2>Habilidades.</h2>
 			</header>
-				<li>JS (ECMASCRIPT 5 Y 6)</li>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>NODE-JS</li>
-				<li>FIREBASE</li>
+			<div class="progress-container">
+				<div class="progress" style="width: 80%;">
+					<span class="skill-progress">JS (ECMASCRIPT6)</span>
+					<span class="porcent">80%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 100%;">
+					<span class="skill-progress">HTML</span>
+					<span class="porcent one">100%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 95%;">
+					<span class="skill-progress">CSS</span>
+					<span class="porcent two">95%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 70%;">
+					<span class="skill-progress">NODE JS</span>
+					<span class="porcent three">70%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 75%;">
+					<span class="skill-progress">FIREBASE</span>
+					<span class="porcent four">75%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 85%;">
+					<span class="skill-progress">GITHUB</span>
+					<span class="porcent five">85%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 65%;">
+					<span class="skill-progress">GIT</span>
+					<span class="porcent six">65%</span>
+				</div>
+			</div>
+			<div class="progress-container">
+				<div class="progress" style="width: 50%;">
+					<span class="skill-progress">FIGMA</span>
+					<span class="porcent seven">50%</span>
+				</div>
+			</div>
+			<!-- <label for="js" class="label">JS (ECMASCRIPT6)</label>
+				<progress max="100" value="80" id="five"></progress>
+				<label for="html" class="label">HTML     </label>
+				<progress max="100" value="80" id="html"></progress>
+				<label for="css" class="label">CSS</label>
+				<progress max="100" value="80" id="css"></progress>
+				<label for="node" class="label">NODE JS</label>
+				<progress max="100" value="80" id="node"></progress>
+				<label for="firebase" class="label">FIREBASE</label>
+				<progress max="100" value="80" id="firebase"></progress>
 				<li>GITHUB</li>
+				<progress max="100" value="80"></progress>
 				<li>GIT</li>
+				<progress max="100" value="80"></progress>
 				<li>FIGMA</li>
+				<progress max="100" value="80"></progress> -->
 		</div>
-		<img class="image-skill" id="js" src="./images/skill/JS.png">
-		<img class="image-skill" id="html" src="./images/skill/HTML5.png">
-		<img class="image-skill" id="node" src="./images/skill/NODE.png">
-		<img class="image-skill" id="css" src="./images/skill/CSS.png">
-		<img class="image-skill" id="github" src="./images/skill/github.png">
-		<img class="image-skill" id="visual" src="./images/skill/VISUALSTUDIO.png">
-		<a href="#work" class="button style2 down anchored">Next</a>
+		<div class="skill-section">
+			<img class="image-skill" src="./images/skill/JS.png">
+			<img class="image-skill" src="./images/skill/HTML5.png">
+			<img class="image-skill" src="./images/skill/CSS.png">
+			<img class="image-skill" src="./images/skill/NODE.png">
+			<img class="image-skill" src="./images/skill/github.png">
+			<img class="image-skill" src="./images/skill/VISUALSTUDIO.png">
+		</div>
+		<!-- <a href="#work" class="button style2 down anchored">Next</a> -->
 	</section>
 
 	<!-- Work -->
@@ -115,13 +176,14 @@
 					<h2>VeggieHappy</h2>
 					<p>Es una Red Social, donde el usuario podrá publicar contenido referente al veganismo.
 						Además podrá editarlo, recibir likes y eliminarlo. PLATAFORMA EN PROCESO DE MEJORA.
-					</p> <button id="demo-redsocial">DEMO - WEB</button> <button id="repo-redsocial">REPOSITORIO</button>
+					</p> <button id="demo-redsocial">DEMO - WEB</button> <button
+						id="repo-redsocial">REPOSITORIO</button>
 					<!-- <a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge"
 							alt="" /></a> -->
 				</article>
 				<article class="from-right">
-					<a href="images/fulls/demo-redsocial.png" class="image fit"><img src="images/fulls/demo-redsocial2.png" title="Carry on"
-							alt="" /></a>
+					<a href="images/fulls/demo-redsocial.png" class="image fit"><img
+							src="images/fulls/demo-redsocial2.png" title="Carry on" alt="" /></a>
 				</article>
 				<!-- <article class="from-left">
 					<a href="images/fulls/01.jpg" class="image fit"><img src="images/fulls/01.jpg"
@@ -130,7 +192,7 @@
 				<!-- <article class="from-right">
 					<h2>BurguerQueen</h2>
 					<p>Breve descripcion sobre el proyecto</p> <button id="demo-second-chance">DEMO - WEB</button> <button id="repo-second-chance">REPOSITORIO</button> -->
-					<!-- <a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX"
+				<!-- <a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX"
 							alt="" /></a>  -->
 				<!-- </article>
 				<article class="from-left">
@@ -139,7 +201,7 @@
 						plataforms financieras. Con solo un click podras bloquear toda información e ingresos anexados a tus cuentas bancarias.
 						PLATAFORMA EN PROCESO DE MEJORA.
 					</p> <button id="demo-redsocial">DEMO - WEB</button> <button id="repo-redsocial">REPOSITORIO</button> -->
-					<!-- <a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge"
+				<!-- <a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge"
 							alt="" /></a> -->
 				<!-- </article>
 				<article class="from-right">
@@ -151,7 +213,7 @@
 		</div>
 	</section>
 
-<!-- hackathon -->
+	<!-- hackathon -->
 	<section id="hackathon" class="main style3 primary">
 		<div class="content">
 			<header>
@@ -162,35 +224,36 @@
 
 			<!-- Gallery  -->
 			<div class="gallery">
-					<article class="from-left">
-							<a href="images/fulls/makean.png" class="image fit"><img src="images/makean.png"
-									title="The sparkling shell" alt="" /></a>
-						</article>
+				<article class="from-left">
+					<a href="images/fulls/makean.png" class="image fit"><img src="images/makean.png"
+							title="The sparkling shell" alt="" /></a>
+				</article>
 				<article class="from-right">
 					<h2>MakeAnOpportunity</h2>
 					<p>Plataforma web, orientada en la reinserción laboral de los jóvenes de Maranguita.
-					Desempeñé el roll de front-end, <strong>quedando como finalistas.</strong> <br>
-					Hackathon organizada por Bellatrix asociada con la UTEC.
-					</p> <button id="demo-second-chance">DEMO - WEB</button> <button id="repo-second-chance">REPOSITORIO</button>
+						Desempeñé el roll de front-end, <strong>quedando como finalistas.</strong> <br>
+						Hackathon organizada por Bellatrix asociada con la UTEC.
+					</p> <button id="demo-second-chance">DEMO - WEB</button> <button
+						id="repo-second-chance">REPOSITORIO</button>
 					<!-- <a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX"
 							alt="" /></a> -->
 				</article>
 				<article class="from-left">
-						<h2>MoviesLife</h2>
-						<p>Plataforma web donde el usuario podrá
-						   filtrar las distintas películas por su título y por género.
-						   Además contará con la opción de ordenar los títulos de A-Z o viceversa.
-						   Hackathon organizada por Laboratoria. PLATAFORMA EN PROCESO DE MEJORA.</p>
-						<button id="demo-movies-life">DEMO - WEB</button> <button id="repo-movies-life">REPOSITORIO</button>
-						<!-- <a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg"
+					<h2>MoviesLife</h2>
+					<p>Plataforma web donde el usuario podrá
+						filtrar las distintas películas por su título y por género.
+						Además contará con la opción de ordenar los títulos de A-Z o viceversa.
+						Hackathon organizada por Laboratoria. PLATAFORMA EN PROCESO DE MEJORA.</p>
+					<button id="demo-movies-life">DEMO - WEB</button> <button id="repo-movies-life">REPOSITORIO</button>
+					<!-- <a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg"
 								title="Airchitecture II" alt="" /></a> -->
-					</article>
+				</article>
 				<article class="from-right">
 					<a href="images/fulls/movieslife.png" class="image fit"><img src="images/hackathonmovies.png"
 							title="The Anonymous Red" alt="" /></a>
 				</article>
-				
-				
+
+
 			</div>
 
 		</div>
@@ -213,7 +276,8 @@
 						</div>
 						<div class="field half">
 							<P>
-							<h2><span class="fas fa-map-marker-alt"></span> Dirección</h2> Psje. Ricardo Palma - El Agustino.
+								<h2><span class="fas fa-map-marker-alt"></span> Dirección</h2> Psje. Ricardo Palma - El
+								Agustino.
 							</P>
 						</div>
 						<div class="field">
@@ -235,9 +299,12 @@
 
 		<!-- Icons -->
 		<ul class="icons">
-			<li><a href="https://www.linkedin.com/in/helen-vasquez" target="blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			<li><a href="https://twitter.com/Hellend08" target="blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="https://github.com/hellend08" target="blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="https://www.linkedin.com/in/helen-vasquez" target="blank"
+					class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://twitter.com/Hellend08" target="blank" class="icon brands fa-twitter"><span
+						class="label">Twitter</span></a></li>
+			<li><a href="https://github.com/hellend08" target="blank" class="icon brands fa-github"><span
+						class="label">Github</span></a></li>
 			<!-- <li><a href="https://www.facebook.com/helen.vasquezs" target="blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 		</ul>
 
