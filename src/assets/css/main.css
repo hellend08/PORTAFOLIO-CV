@@ -637,6 +637,7 @@ input, select, textarea {
 		background: #ffffff;
 		color: #39454b;
 		padding: 2em;
+		border-radius: 5px;
 	}
 
 		.box > :last-child {
@@ -1867,7 +1868,7 @@ input, select, textarea {
 		/* background: rgb(195, 207, 212); */
 		/* background: #586656; */
 		/* background: rgba(37, 86, 112, 0.85); */
-		background-color: #FABF1B;
+		background-color: #fdc52b;
 		height: 3.5em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(32, 25, 34, 0.562);
@@ -1920,10 +1921,10 @@ input, select, textarea {
 					}
 
 					.hover-a a:hover{
-						color: #ffffff!important;
-						text-transform: uppercase;
+						color: #ffffffbb!important;
+						/* text-transform: uppercase; */
 						/* font-size: 1.4em; */
-						transition: .9s ease-in-out;
+						/* transition: .9s ease-in-out; */
 					}
 				
 
@@ -2147,7 +2148,8 @@ input, select, textarea {
 		@media screen and (max-width: 1000px) {
 
 			.main.style2 .content {
-				width: 60%;
+				width: 90%;
+				font-size: 20px;
 			}
 
 			.helen{
@@ -2155,7 +2157,7 @@ input, select, textarea {
 			}
 
 			.iconnn{
-				width: 10%;
+				width: 7.5%;
 				margin:  3px 15px;
 			}
 
@@ -2380,35 +2382,67 @@ span .span{
 
 .porcent{
 	position: relative;
-	left: 9.7rem;
+	left: 10rem;
 }
 
 	.one{
-	left: 10.7rem;
+	left: 11.2rem;
 	}
 
 	.two{
-	left: 11.5rem;
+	left: 12.2rem;
 	}
 
 	.three{
-		left: 12.8rem;
+		left: 13rem;
 	}
 
 	.four{
-		left: 12.2rem;
+		left: 14.2rem;
 	}
 
 	.five{
-		left: 11.7rem;
+		left: 11.9rem;
 	}
 
 	.six{
-		left: 14.5rem;
+		left: 14.85rem;
 	}
 
 	.seven{
-		left: 15.3rem;
+		left: 15.5rem;
+	}
+
+	.eight{
+		left: 13.2rem;
+	}
+
+	.nine{
+		left: 14rem;
+	}
+
+	@media screen and (max-width: 736px){
+		.porcent{
+			display: none;
+		}
+		.progress-container{
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 1000px) {
+		.skill-section{
+			margin-left: 70px;
+		}
+
+		.porcent{
+			display: none;
+		}
+		.progress-container{
+			width: 100%;
+		}
+
 	}
 
 /* progress[value]{
