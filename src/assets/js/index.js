@@ -1,3 +1,25 @@
+const buttonDemoZsports = document.getElementById('demo-zsports');
+const buttonRepoZsports = document.getElementById('repo-zsports');
+
+buttonDemoZsports.addEventListener('click', () => {
+  window.open('https://hellend08.github.io/ZSPORTS/home.html');
+});
+
+buttonRepoZsports.addEventListener('click', () => {
+  window.open('https://github.com/hellend08/ZSPORTS');
+});
+
+const buttonDemoForge = document.getElementById('demo-forge');
+const buttonRepoForge = document.getElementById('repo-forge');
+
+buttonDemoForge.addEventListener('click', () => {
+  window.open('https://hellend08.github.io/FIRTS-JOB/fox-master/index.html');
+});
+
+buttonRepoForge.addEventListener('click', () => {
+  window.open('https://github.com/hellend08/FIRTS-JOB');
+});
+
 const buttonDemoDatalovers = document.getElementById('demo-datalovers');
 const buttonRepoDatalovers = document.getElementById('repo-datalovers');
 

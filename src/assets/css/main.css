@@ -933,10 +933,41 @@ input, select, textarea {
 	}
 
 /* Icon */
+.icon-menu{
+	width: 8%;
+	margin: 5px 25px;
+	display: none;
+	float: right;
+	font-size: 40px;
+}
+	@media screen and (max-width: 736px) {
+
+		.icon-menu {
+		display: inline-block;
+	}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.icon-menu {
+			display: inline-block;
+		}
+
+		header nav{
+
+			width: 50%;
+			position: fixed;
+			left: 0;
+			margin: 0;
+			overflow: scroll;
+		}
+
+	}
 
 .iconnn {
-	width: 4.1%;
-	margin: 5px 55px;
+	width: 4.8%;
+	margin: 0px 55px 5px;
 }
 
 	.icon {
@@ -1868,7 +1899,8 @@ input, select, textarea {
 		/* background: rgb(195, 207, 212); */
 		/* background: #586656; */
 		/* background: rgba(37, 86, 112, 0.85); */
-		background-color: #fdc52b;
+		/* background-color: #fdc52b; */
+		background-color: #3f7367;
 		height: 3.5em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(32, 25, 34, 0.562);
@@ -1894,7 +1926,7 @@ input, select, textarea {
 			right: 3.5em;
 			top: 0.3em;
 			height: 3em;
-			/* line-height: 3em; */
+			line-height: 3em;
 		}
 
 			#header nav ul {
@@ -2108,7 +2140,7 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #FABF1B;
+				border-color: #ffffff;
 			}
 
 				.main.dark .button.style2:hover {
@@ -2120,7 +2152,7 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/next.png");
+					background-image: url("images/dark-arrow.svg");
 					background-size: 45px;
 				}
 
