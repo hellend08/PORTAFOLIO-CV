@@ -565,12 +565,13 @@ input, select, textarea {
 		font-size: 2.25em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
+
 	}
 
 	#frontend {
-		font-size: 2.2em;
-		margin: 1.5em 0;
-		margin-top: 1em;
+		font-size: 2.35em;
+		margin: 1em 0;
+		margin-top: .55em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -966,8 +967,14 @@ input, select, textarea {
 	}
 
 .iconnn {
+	opacity: 0.2;
 	width: 4.8%;
 	margin: 0px 55px 5px;
+}
+
+.iconnn:hover{
+	opacity: 1;
+	transition: .6s ease-in-out;
 }
 
 	.icon {
@@ -1942,8 +1949,10 @@ input, select, textarea {
 				}
 
 					#header nav ul li a {
-						font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+				font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, 'Roboto', Arial, sans-serif;
 						display: block;
+						font-size: 14.5px;
+						letter-spacing: 1.5px;
 						/* text-transform: uppercase; */
 						/* color: rgb(57, 69, 75); */
 						color: #ffffff;
@@ -2189,6 +2198,7 @@ input, select, textarea {
 			}
 
 			.iconnn{
+				
 				width: 7.5%;
 				margin:  3px 15px;
 			}
@@ -2372,7 +2382,9 @@ input, select, textarea {
 /* Two */
 
 .skill-section{
-	margin-left: 100px;
+	margin-left: 135px;
+	width: 70%;
+	align-items: center;
 }
 
 /* .label{
@@ -2498,8 +2510,9 @@ progress::-webkit-progress-value {
  } */
 
 .image-skill {
-	width: 180px;
-	padding: 10px;
+	width: 148px;
+	padding: 5px;
+	margin: 0 10px;
 	/* padding-left: 20px; */
 	/* position: relative; */
 }
